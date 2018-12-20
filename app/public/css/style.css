@@ -1,0 +1,325 @@
+input[type="file"] {
+  display: none;
+}
+
+input[type="submit"] {
+  display: none;
+}
+
+.campaignsTableWrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+#campaignsTable th, td {
+white-space: nowrap;
+}
+
+.targetingTableWrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+#targetingTableWrapper th, td {
+white-space: nowrap;
+}
+
+.supplyTableWrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+#supplyTableWrapper th, td {
+white-space: nowrap;
+}
+
+.creativeTableWrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+#creativeTableWrapper th, td {
+white-space: nowrap;
+}
+
+.settingsTableWrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+#settingsTableWrapper th, td {
+white-space: nowrap;
+}
+
+.btn-outline-blue {
+  color: #45cafc;
+  border: 1px solid;
+  border-color: #45cafc;
+}
+
+.btn-outline-blue:hover, .btn-outline-blue:focus, .btn-outline-blue:active, .btn-outline-blue.active {
+  color: #45cafc;
+  border-color: white;
+  background-color: white;
+}
+
+.txt-container--break-long-word {
+  word-break: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+.form-gradient .header {
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem; }
+
+.form-gradient input[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #fd9267;
+  box-shadow: 0 1px 0 0 #fd9267; }
+
+.form-gradient input[type=text]:focus:not([readonly]) + label {
+  color: #4f4f4f; }
+
+.form-gradient textarea.md-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #fd9267;
+    box-shadow: 0 1px 0 0 #fd9267; }
+
+
+.form-dark .md-form label {
+  color: #fff; }
+
+.form-dark input[type=text]:focus:not([readonly]) {
+  border-bottom: 1px solid #00C851;
+  -webkit-box-shadow: 0 1px 0 0 #00C851;
+  box-shadow: 0 1px 0 0 #00C851; }
+
+.form-dark input[type=text]:focus:not([readonly]) + label {
+  color: #fff; }
+
+.form-dark textarea.md-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #00C851;
+    box-shadow: 0 1px 0 0 #00C851;
+    color: #fff; }
+
+.form-dark textarea.md-textarea  {
+    color: #fff;
+    overflow-y:scroll;
+}
+
+.form-dark .form-control, .form-dark .form-control:focus {
+    color: #fff;
+}
+
+textarea
+{
+    overflow-y:scroll;
+    width: 100%; 
+    margin: 0; 
+    padding: 0; 
+    border-width: 0;
+}
+
+.contact-form{
+  background: #fff;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 70%;
+}
+.contact-form .form-control{
+  border-radius:1rem;
+}
+.contact-image{
+  text-align: center;
+}
+.contact-image img{
+  border-radius: 6rem;
+  width: 11%;
+  margin-top: -3%;
+  transform: rotate(29deg);
+}
+.contact-form form{
+  padding: 14%;
+}
+.contact-form form .row{
+  margin-bottom: -7%;
+}
+.contact-form h3{
+  margin-bottom: 8%;
+  margin-top: -10%;
+  text-align: center;
+  color: #0062cc;
+}
+.contact-form .btnContact {
+  width: 50%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #dc3545;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+.btnContactSubmit
+{
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #0062cc;
+  border: none;
+  cursor: pointer;
+}
+
+section.api {
+  position: relative;
+  padding: 150px 0;
+}
+
+section.api h2 {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+section.api .badges .badge-link {
+  display: block;
+  margin-bottom: 25px;
+}
+
+section.api .badges .badge-link:last-child {
+  margin-bottom: 0;
+}
+
+section.api .badges .badge-link img {
+  height: 60px;
+}
+
+@media (min-width: 768px) {
+  section.api .badges .badge-link {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  section.api h2 {
+    font-size: 70px;
+  }
+}
+
+#loader {
+    bottom: 0;
+    height: 175px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 175px;
+}
+#loader {
+    bottom: 0;
+    height: 175px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 175px;
+}
+#loader .dot {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 87.5px;
+}
+#loader .dot::before {
+    border-radius: 100%;
+    content: "";
+    height: 87.5px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scale(0);
+    width: 87.5px;
+}
+#loader .dot:nth-child(7n+1) {
+    transform: rotate(45deg);
+}
+#loader .dot:nth-child(7n+1)::before {
+    animation: 0.8s linear 0.1s normal none infinite running load;
+    background: #00ff80 none repeat scroll 0 0;
+}
+#loader .dot:nth-child(7n+2) {
+    transform: rotate(90deg);
+}
+#loader .dot:nth-child(7n+2)::before {
+    animation: 0.8s linear 0.2s normal none infinite running load;
+    background: #00ffea none repeat scroll 0 0;
+}
+#loader .dot:nth-child(7n+3) {
+    transform: rotate(135deg);
+}
+#loader .dot:nth-child(7n+3)::before {
+    animation: 0.8s linear 0.3s normal none infinite running load;
+    background: #00aaff none repeat scroll 0 0;
+}
+#loader .dot:nth-child(7n+4) {
+    transform: rotate(180deg);
+}
+#loader .dot:nth-child(7n+4)::before {
+    animation: 0.8s linear 0.4s normal none infinite running load;
+    background: #0040ff none repeat scroll 0 0;
+}
+#loader .dot:nth-child(7n+5) {
+    transform: rotate(225deg);
+}
+#loader .dot:nth-child(7n+5)::before {
+    animation: 0.8s linear 0.5s normal none infinite running load;
+    background: #2a00ff none repeat scroll 0 0;
+}
+#loader .dot:nth-child(7n+6) {
+    transform: rotate(270deg);
+}
+#loader .dot:nth-child(7n+6)::before {
+    animation: 0.8s linear 0.6s normal none infinite running load;
+    background: #9500ff none repeat scroll 0 0;
+}
+#loader .dot:nth-child(7n+7) {
+    transform: rotate(315deg);
+}
+#loader .dot:nth-child(7n+7)::before {
+    animation: 0.8s linear 0.7s normal none infinite running load;
+    background: magenta none repeat scroll 0 0;
+}
+#loader .dot:nth-child(7n+8) {
+    transform: rotate(360deg);
+}
+#loader .dot:nth-child(7n+8)::before {
+    animation: 0.8s linear 0.8s normal none infinite running load;
+    background: #ff0095 none repeat scroll 0 0;
+}
+#loader .lading {
+    background-image: url("../images/loading.gif");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    bottom: -40px;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 180px;
+}
+@keyframes load {
+100% {
+    opacity: 0;
+    transform: scale(1);
+}
+}
+@keyframes load {
+100% {
+    opacity: 0;
+    transform: scale(1);
+}
+}

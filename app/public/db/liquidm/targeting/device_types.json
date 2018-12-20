@@ -1,0 +1,27 @@
+{
+    "ul": {
+      "@aria-controls": "ember-power-select-trigger-ember2149",
+      "@role": "listbox",
+      "@id": "ember-power-select-options-ember2149",
+      "@class": "ember-power-select-options ember-view",
+      "#comment": "",
+      "li": [
+        {
+          "@aria-selected": "false",
+          "@aria-current": "true",
+          "@data-option-index": "0",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Mobile/Tablet"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "1",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Personal Computer"
+        }
+      ]
+    }
+  }

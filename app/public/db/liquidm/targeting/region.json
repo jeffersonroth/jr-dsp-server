@@ -1,0 +1,411 @@
+{
+    "ul": {
+      "@aria-controls": "ember-power-select-trigger-ember2096",
+      "@role": "listbox",
+      "@id": "ember-power-select-options-ember2096",
+      "@class": "ember-power-select-options ember-view",
+      "#comment": "",
+      "li": [
+        {
+          "@aria-selected": "false",
+          "@aria-current": "true",
+          "@data-option-index": "0",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "04463 (Postalcode, United States)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "1",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "06035 (Postalcode, Italy)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "2",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "125130 (Postalcode, Russia)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "3",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "1407 (Postalcode, Switzerland)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "4",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "160000 (Postalcode, Russia)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "5",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "20-004 (Postalcode, Poland)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "6",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "23893 (Postalcode, Italy)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "7",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "30077 (Postalcode, United States)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "8",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "31217 (Postalcode, Turkey)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "9",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "33-394 (Postalcode, Poland)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "10",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "331403 (Postalcode, India)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "11",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "33859 (Postalcode, United States)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "12",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "35210 (Postalcode, Turkey)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "13",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "41164 (Postalcode, United States)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "14",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "4310 (Postalcode, Australia)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "15",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "47932 (Postalcode, United States)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "16",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "50124 (Postalcode, United States)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "17",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "50670 (Postalcode, France)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "18",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "5333 (Postalcode, Netherlands)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "19",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "55340 (Postalcode, Brazil)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "20",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "59169 (Postalcode, France)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "21",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "6005 (Postalcode, Argentina)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "22",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "62470 (Postalcode, Brazil)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "23",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "62767 (Postalcode, Mexico)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "24",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "633010 (Postalcode, Russia)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "25",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "65757 (Postalcode, United States)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "26",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "67846 (Postalcode, United States)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "27",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "72-006 (Postalcode, Poland)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "28",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "75020 (Postalcode, Mexico)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "29",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "8174 (Postalcode, Argentina)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "30",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "87-851 (Postalcode, Poland)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "31",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "98711 (Postalcode, Germany)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "32",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Benamenil (City, France)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "33",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Bernos-Beaulac (City, France)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "34",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Calder Park (City, Australia)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "35",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Carp Lake (City, United States)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "36",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Celles (City, France)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "37",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Drasendorf (City, Austria)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "38",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "El Macero (City, United States)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "39",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Eternoz (City, France)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "40",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Haarbach (City, Germany)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "41",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "High Shoals (City, United States)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "42",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Loperec (City, France)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "43",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Manhac (City, France)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "44",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Matraballa (City, Hungary)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "45",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Saint-Gilles-Pligeaux (City, France)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "46",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Stroncone (City, Italy)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "47",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "T5Y (Postalcode, Canada)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "48",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Towanda (City, United States)"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "49",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Villebois-Lavalette (City, France)"
+        }
+      ]
+    }
+  }

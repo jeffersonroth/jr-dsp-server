@@ -1,0 +1,1995 @@
+{
+    "ul": {
+      "@aria-controls": "ember-power-select-trigger-ember2087",
+      "@role": "listbox",
+      "@id": "ember-power-select-options-ember2087",
+      "@class": "ember-power-select-options ember-view",
+      "#comment": "",
+      "li": [
+        {
+          "@aria-selected": "false",
+          "@aria-current": "true",
+          "@data-option-index": "0",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Afghanistan"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "1",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Åland"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "2",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Albania"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "3",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Algeria"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "4",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "American Samoa"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "5",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Andorra"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "6",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Angola"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "7",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Anguilla"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "8",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Antigua and Barbuda"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "9",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Argentina"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "10",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Armenia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "11",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Aruba"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "12",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Australia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "13",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Austria"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "14",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Azerbaijan"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "15",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Bahamas"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "16",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Bahrain"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "17",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Bangladesh"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "18",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Barbados"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "19",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Belarus"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "20",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Belgium"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "21",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Belize"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "22",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Benin"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "23",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Bermuda"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "24",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Bhutan"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "25",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Bolivia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "26",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Bonaire, Sint Eustatius, and Saba"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "27",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Bosnia and Herzegovina"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "28",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Botswana"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "29",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Bouvet Island"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "30",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Brazil"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "31",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "British Indian Ocean Territory"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "32",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "British Virgin Islands"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "33",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Brunei"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "34",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Bulgaria"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "35",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Burkina Faso"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "36",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Burundi"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "37",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Cabo Verde"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "38",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Cambodia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "39",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Cameroon"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "40",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Canada"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "41",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Cape Verde"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "42",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Cayman Islands"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "43",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Central African Republic"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "44",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Chad"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "45",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Chile"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "46",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "China"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "47",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Christmas Island"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "48",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Cocos [Keeling] Islands"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "49",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Colombia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "50",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Comoros"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "51",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Congo"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "52",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Cook Islands"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "53",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Costa Rica"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "54",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Croatia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "55",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Cuba"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "56",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Curaçao"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "57",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Cyprus"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "58",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Czechia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "59",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Democratic Republic of Timor-Leste"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "60",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Denmark"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "61",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Djibouti"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "62",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Dominica"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "63",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Dominican Republic"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "64",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "East Timor"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "65",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Ecuador"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "66",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Egypt"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "67",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "El Salvador"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "68",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Equatorial Guinea"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "69",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Eritrea"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "70",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Estonia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "71",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Ethiopia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "72",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Falkland Islands"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "73",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Faroe Islands"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "74",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Federated States of Micronesia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "75",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Fiji"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "76",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Finland"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "77",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "France"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "78",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "French Guiana"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "79",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "French Polynesia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "80",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "French Southern Territories"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "81",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Gabon"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "82",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Gambia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "83",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Georgia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "84",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Germany"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "85",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Ghana"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "86",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Gibraltar"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "87",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Greece"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "88",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Greenland"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "89",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Grenada"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "90",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Guadeloupe"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "91",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Guam"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "92",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Guatemala"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "93",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Guernsey"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "94",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Guinea"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "95",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Guinea-Bissau"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "96",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Guyana"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "97",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Haiti"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "98",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Hashemite Kingdom of Jordan"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "99",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Honduras"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "100",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Hong Kong"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "101",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Hungary"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "102",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Iceland"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "103",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "India"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "104",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Indonesia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "105",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Iran"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "106",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Iraq"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "107",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Ireland"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "108",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Isle of Man"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "109",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Israel"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "110",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Italy"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "111",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Ivory Coast"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "112",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Jamaica"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "113",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Japan"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "114",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Jersey"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "115",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Kazakhstan"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "116",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Kenya"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "117",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Kiribati"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "118",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Kosovo"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "119",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Kuwait"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "120",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Kyrgyzstan"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "121",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Laos"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "122",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Latvia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "123",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Lebanon"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "124",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Lesotho"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "125",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Liberia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "126",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Libya"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "127",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Liechtenstein"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "128",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Luxembourg"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "129",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Macao"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "130",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Macedonia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "131",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Madagascar"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "132",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Malawi"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "133",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Malaysia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "134",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Maldives"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "135",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Mali"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "136",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Malta"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "137",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Marshall Islands"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "138",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Martinique"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "139",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Mauritania"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "140",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Mauritius"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "141",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Mayotte"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "142",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Mexico"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "143",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Monaco"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "144",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Mongolia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "145",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Montenegro"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "146",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Montserrat"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "147",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Morocco"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "148",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Mozambique"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "149",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Myanmar [Burma]"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "150",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Namibia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "151",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Nauru"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "152",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Nepal"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "153",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Netherlands"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "154",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "New Caledonia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "155",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "New Zealand"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "156",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Nicaragua"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "157",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Niger"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "158",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Nigeria"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "159",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Niue"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "160",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Norfolk Island"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "161",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "North Korea"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "162",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Northern Mariana Islands"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "163",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Norway"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "164",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Oman"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "165",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Pakistan"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "166",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Palau"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "167",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Palestine"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "168",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Panama"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "169",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Papua New Guinea"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "170",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Paraguay"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "171",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Peru"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "172",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Philippines"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "173",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Pitcairn Islands"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "174",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Poland"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "175",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Portugal"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "176",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Puerto Rico"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "177",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Qatar"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "178",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Republic of Korea"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "179",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Republic of Lithuania"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "180",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Republic of Moldova"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "181",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Republic of the Congo"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "182",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Réunion"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "183",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Romania"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "184",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Russia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "185",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Rwanda"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "186",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Saint Helena"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "187",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Saint Kitts and Nevis"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "188",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Saint Lucia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "189",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Saint Martin"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "190",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Saint Pierre and Miquelon"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "191",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Saint Vincent and the Grenadines"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "192",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Saint-Barthélemy"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "193",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Samoa"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "194",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "San Marino"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "195",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "São Tomé and Príncipe"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "196",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Saudi Arabia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "197",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Senegal"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "198",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Serbia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "199",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Seychelles"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "200",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Sierra Leone"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "201",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Singapore"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "202",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Sint Maarten"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "203",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Slovak Republic"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "204",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Slovakia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "205",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Slovenia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "206",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Solomon Islands"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "207",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Somalia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "208",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "South Africa"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "209",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "South Sudan"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "210",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Spain"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "211",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Sri Lanka"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "212",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "St Kitts and Nevis"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "213",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Sudan"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "214",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Suriname"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "215",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Swaziland"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "216",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Sweden"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "217",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Switzerland"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "218",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Syria"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "219",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Taiwan"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "220",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Tajikistan"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "221",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Tanzania"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "222",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Thailand"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "223",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Togo"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "224",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Tokelau"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "225",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Tonga"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "226",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Trinidad and Tobago"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "227",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Tunisia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "228",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Turkey"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "229",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Turkmenistan"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "230",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Turks and Caicos Islands"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "231",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Tuvalu"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "232",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "U.S. Virgin Islands"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "233",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Uganda"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "234",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Ukraine"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "235",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "United Arab Emirates"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "236",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "United Kingdom"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "237",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "United States"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "238",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Uruguay"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "239",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Uzbekistan"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "240",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Vanuatu"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "241",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Vatican City"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "242",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Venezuela"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "243",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Vietnam"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "244",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Wallis and Futuna"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "245",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Yemen"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "246",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Zambia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "247",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Zimbabwe"
+        }
+      ]
+    }
+  }

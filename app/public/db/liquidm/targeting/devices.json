@@ -1,0 +1,811 @@
+{
+    "ul": {
+      "@aria-controls": "ember-power-select-trigger-ember2177",
+      "@role": "listbox",
+      "@id": "ember-power-select-options-ember2177",
+      "@class": "ember-power-select-options ember-view",
+      "#comment": "",
+      "li": [
+        {
+          "@aria-selected": "false",
+          "@aria-current": "true",
+          "@data-option-index": "0",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "samsung"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "1",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "apple"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "2",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "lg"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "3",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "huawei"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "4",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "lge"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "5",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "motorola"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "6",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "sony"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "7",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "htc"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "8",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "lenovo"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "9",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "zte"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "10",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "asus"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "11",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "google"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "12",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "xiaomi"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "13",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "alcatel"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "14",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "generic"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "15",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "tcl"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "16",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "oppo"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "17",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "apple inc."
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "18",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "google inc."
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "19",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "unknown"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "20",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "amazon"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "21",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "vivo"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "22",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "micromax"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "23",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "verizon"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "24",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "kyocera"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "25",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "wiko"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "26",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "blu"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "27",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "acer"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "28",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "sprint"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "29",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "oneplus"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "30",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "bq"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "31",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "at&amp;t"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "32",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "sharp"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "33",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "alps"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "34",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "t-mobile"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "35",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "lava"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "36",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "nokia"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "37",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "coolpad"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "38",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "meizu"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "39",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "vodafone"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "40",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "gionee"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "41",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "general mobile"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "42",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "tct"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "43",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "lyf"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "44",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "rca"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "45",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "infinix"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "46",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "tecno"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "47",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "prestigio"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "48",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "fly"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "49",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "advan"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "50",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "archos"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "51",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "sonyericsson"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "52",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "quanta"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "53",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "fujitsu"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "54",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "hisense"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "55",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "microsoft"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "56",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "intex"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "57",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "rockchip"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "58",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "lanix"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "59",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "rim"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "60",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "alco"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "61",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "casper"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "62",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "pantech"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "63",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "mozilla"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "64",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "android"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "65",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "doogee"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "66",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "blackberry"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "67",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "haier"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "68",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "philips"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "69",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "lg electronics"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "70",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "panasonic"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "71",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "dexp"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "72",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "vestel"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "73",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "positivo"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "74",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "cricket"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "75",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "yu"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "76",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "multilaser"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "77",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "polaroid"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "78",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "orange"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "79",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "hmd global"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "80",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "metropcs"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "81",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "general_mobile"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "82",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "sony ericsson"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "83",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "itel"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "84",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "rca tablets"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "85",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "karbonn"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "86",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "i-mobile"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "87",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "cubot"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "88",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "cherry mobile"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "89",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "personal computer"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "90",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "myphone"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "91",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "hp"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "92",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "homtom"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "93",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "turkcell"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "94",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "dell"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "95",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "digma"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "96",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "intel"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "97",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "us cellular"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "98",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "ecs"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "99",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "sprd"
+        }
+      ]
+    }
+  }

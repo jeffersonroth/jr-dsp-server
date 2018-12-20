@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Implement LiquidM Campaign Lines">
+    <meta name="author" content="Jefferson Roth">
+
+    <title>DSP Server by Jefferson Roth</title>
+
+    <!-- Config -->
+
+      <!-- MDB 4.5.16 / 4.5.15 / 4.5.13 / 4.5.12 / 4.5.11
+        CSS:
+          Font Awesome:   4.7.0;
+          Bootstrap:      4.1.3;
+        JS:
+          jQuery:         3.3.1;
+          Popper:         1.14.4;
+          Bootstrap:      4.1.3;
+      -->
+
+      <!-- MDB 4.5.10 / 4.5.9
+        CSS:
+          Font Awesome:   4.7.0;
+          Bootstrap:      4.1.3;
+        JS:
+          jQuery:         3.3.1;
+          Popper:         1.13.0;
+          Bootstrap:      4.1.3;
+      -->
+
+    <!-- /Config -->
+
+    <!-- Style -->
+
+      <!-- Font Awesome core CSS
+        Local/Vendor/4.7.0:       <link href="/public/vendor/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+        Local/Vendor/5.3.1:       <link href="/public/vendor/font-awesome-5.3.1/css/font-awesome.min.css" rel="stylesheet"> 
+        Web/CDN/4.7.0:            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      --><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!-- Bootstrap core CSS 
+        Local/Vendor/4.1.3:       <link href="/public/vendor/bootstrap-4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        Web/CloudFlare/4.1.3:     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+      --><link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+      
+      <!-- Material Design Bootstrap CSS
+        Local/Vendor/4.5.16:      <link href="/public/vendor/mdb-4.5.16/css/mdb.min.css" rel="stylesheet">
+        Web/CloudFlare/4.5.16:    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.16/css/mdb.min.css" rel="stylesheet"> 
+        Web/CloudFlare/4.5.15:    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.15/css/mdb.min.css" rel="stylesheet"> 
+      --><link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.16/css/mdb.min.css" rel="stylesheet">
+
+      <!-- DataTables -->
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.css"/>
+      
+      <!-- Fonts -->
+      <link href="/public/vendor/simple-line-icons-2.4.0/css/simple-line-icons.css" rel="stylesheet" >
+      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+      <!-- Custom Styles -->
+      <link href="/public/css/new-age.css" rel="stylesheet">
+      <link href="/public/vendor/device-mockups-marvelapps/devices.min.css" rel="stylesheet">
+      <link href="/public/device-mockups/device-mockups.min.css" rel="stylesheet" >
+      <link href="/public/css/style.css" rel="stylesheet">
+
+    <!-- /Style -->
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">DSP Server by Jefferson Roth</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#download">Documentation</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div style="display:table;">
+      <div style="display:table-cell;vertical-align:middle;">
+        <div style="margin-left:auto;margin-right:auto;">
+
+        </div>
+      </div>
+    </div>
+
+    <header class="masthead">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-lg-7 my-auto">
+            <div class="header-content mx-auto">
+              <h1 class="mb-5">DSP Tools</h1>
+              <h2>Upload Campaign</h2>
+              <label for="file-upload" class="btn btn-outline btn-xl js-scroll-trigger">
+                <input id="file-upload" type="file" required/>
+                Campaign SetUp File
+              </label>
+              <label for="file-submit" class="btn btn-outline btn-xl js-scroll-trigger">
+                <input id="file-submit" type="submit"/>
+                <i class="fa fa-upload mt-0"></i>
+              </label>
+              <form id      =  "uploadForm"
+                  enctype   =  "multipart/form-data"
+                  action    =  "upload/campaign"
+                  method    =  "post" hidden>
+                <label for="creative-upload" class="btn btn-outline btn-xl js-scroll-trigger">
+                  <input id="creative-upload" type="file"/>
+                  Creatives ZIP
+                </label>
+                <label for="creative-submit" class="btn btn-outline btn-xl js-scroll-trigger">
+                  <input id="creative-submit" type="submit"/>
+                  <i class="fa fa-upload mt-0"></i>
+                </label>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-5 my-auto" style="transform: scale(0.77);">
+              <div class="device-container">
+                  <div class="marvel-device iphone-x">
+                      <div class="notch">
+                          <div class="camera"></div>
+                          <div class="speaker"></div>
+                      </div>
+                      <div class="top-bar"></div>
+                      <div class="sleep"></div>
+                      <div class="bottom-bar"></div>
+                      <div class="volume"></div>
+                      <div class="overflow">
+                          <div class="shadow shadow--tr"></div>
+                          <div class="shadow shadow--tl"></div>
+                          <div class="shadow shadow--br"></div>
+                          <div class="shadow shadow--bl"></div>
+                      </div>
+                      <div class="inner-shadow"></div>
+                      <div class="screen">
+                          <textarea id="campaignJSONselected" class="md-textarea form-control" style="min-width: 100%; min-height: 100%;"></textarea>
+                          <label for="campaignJSONselected">Parsed Campaign</label>
+                      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="features" id="campaignLoad">
+      <div class="container">
+        <div class="section-heading text-center">
+          <h2>Campaign Setup<i class="fa fa-sliders-h"></i></h2>
+          <p class="text-muted">Check and edit the campaign creatives and settings</p>
+
+          <hr>
+
+          <!-- Campaigns Table -->
+          <div class="card card-cascade narrower">
+              <!--Card image-->
+              <div class="view view-cascade gradient-card-header blue-gradient narrower py-2 mx-4 mb-3 d-flex justify-content-between align-items-center">
+            
+                <div>
+                  <button type="button" class="btn btn-outline-white btn-rounded btn-sm">
+                    <i class="fa fa-play mt-0"></i>
+                  </button>
+                  <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+                    <i class="fa fa-pause mt-0"></i>
+                  </button>
+                </div>
+            
+                <a href="" class="white-text mx-3">Campaigns</a>
+            
+                <div>
+                  <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+                    <i class="fa fa-pencil mt-0"></i>
+                  </button>
+                  <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+                    <i class="fa fa-remove mt-0"></i>
+                  </button>
+                  <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+                    <i class="fa fa-info-circle mt-0" data-container="body" data-placement="botton"
+                    title="Targeting" 
+                    data-content="And here's some amazing content. It's very engaging. Right?"></i>
+                  </button>
+                </div>
+            
+              </div>
+              <!-- /Card image -->
+              <!-- Card body -->
+              <div class="card-body">
+                <div class="table-wrapper table-responsive text-nowrap">
+                  <!-- Table -->
+                  <table class="table table-hover table-sm mb-0 campaignsTableWrapper" id="campaignsTable" cellspacing="0" width="100%">
+                    <!-- Table head -->
+                    <thead>
+                      <tr>
+                        <th>
+                          <input class="form-check-input" type="checkbox" id="checkbox">
+                          <label class="form-check-label" for="checkbox" class="mr-2 label-table"></label>
+                        </th>
+                        <th class="text-center">
+                          <a href="#!">Account ID
+                            <i class="fa fa-sort ml-1"></i>
+                          </a>
+                        </th>
+                        <th class="text-center">
+                          <a href="#!">Campaign ID
+                            <i class="fa fa-sort ml-1"></i>
+                          </a>
+                        </th>
+                        <th class="text-center">
+                          <a href="#!">Campaign Name
+                            <i class="fa fa-sort ml-1"></i>
+                          </a>
+                        </th>
+                        <th class="text-center">
+                          <a>Timezone
+                            <i class="fa fa-globe ml-1"></i>
+                          </a>
+                        </th>
+                        <th class="text-center">
+                          <a>Currency
+                            <i class="fa fa-money ml-1"></i>
+                          </a>
+                        </th>
+                        <th class="text-center">
+                          <a href="#!">#Lines
+                            <i class="fa fa-sort ml-1"></i>
+                          </a>
+                        </th>
+                        <th class="text-center">
+                          <a href="#!">Status
+                            <i class="fa fa-sort ml-1"></i>
+                          </a>
+                        </th>
+                        <th class="text-center">
+                          <a>Details
+                            <i class="fa fa-tasks ml-1"></i>
+                          </a>
+                        </th>
+                      </tr>
+                    </thead>
+                    <!-- /Table head -->
+                    <!-- Table body -->
+                    <tbody>
+                      <tr campaignID="00000" campaignName="TEST_CAMPAIGN_JEFF" campaignsTableID="xiru">
+                        <th scope="row">
+                          <input class="form-check-input" type="checkbox" id="checkbox1">
+                          <label class="form-check-label" for="checkbox1" class="label-table"></label>
+                        </th>
+                        <td>AdsMovil</td>
+                        <td>00000</td>
+                        <td>TEST_CAMPAIGN_JEFF</td>
+                        <td>Bogota</td>
+                        <td>USD</td>
+                        <td>3</td>
+                        <td>Pending</td>
+                        <td><span><a id="btnShowLines" href="#!" class="btnShowLines indigo-text"><i class="fa fa-eye" aria-hidden="true"></i></a></span></td>
+                      </tr>
+                    </tbody>
+                    <!-- Table body -->
+                  </table>
+                  <!-- Table -->
+                </div>
+              </div>
+              <!-- /Card body -->
+            </div>
+            <!-- Campaigns Table -->
+
+            <hr>
+
+            <!-- Lines table -->
+            <div class="card card-cascade narrower">
+              <!--Card image-->
+              <div class="view view-cascade gradient-card-header blue-gradient narrower py-2 mx-4 mb-3 d-flex justify-content-between align-items-center">
+            
+                <div>
+                  <button type="button" class="btn btn-outline-white btn-rounded btn-sm">
+                    <i class="fa fa-play mt-0"></i>
+                  </button>
+                  <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+                    <i class="fa fa-pause mt-0"></i>
+                  </button>
+                </div>
+            
+                <a href="#!" class="white-text mx-3">Lines</a>
+            
+                <div>
+                  <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+                    <i class="fa fa-pencil mt-0"></i>
+                  </button>
+                  <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+                    <i class="fa fa-remove mt-0"></i>
+                  </button>
+                  <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+                    <i class="fa fa-info-circle mt-0"></i>
+                  </button>
+                </div>
+            
+              </div>
+              <!-- /Card image -->
+              <!-- Card body -->
+              <div class="card-body">
+                <div id="campaignLinesTable" class="table-editable table-responsive text-nowrap">
+                  <span class="table-add float-right mb-3 mr-2"><a href="#!" class="text-primary"><i class="fa fa-plus fa-2x"
+                        aria-hidden="true"></i></a></span>
+                  <!-- Table -->
+                  <table class="table table-hover table-sm mb-0 campaignLinesTableWrapper"  cellspacing="0" width="100%">
+                    <!-- Table head -->
+                    <thead>
+                        <tr>
+                          <th scope="row">
+                            <input class="form-check-input" type="checkbox" id="checkbox1">
+                            <label class="form-check-label" for="checkbox1" class="label-table"></label>
+                          </th>
+                          <th class="text-center">ID</th>
+                          <th class="text-center">
+                            <a href="#!">Name
+                              <i class="fa fa-sort ml-1"></i>
+                            </a>
+                          </th>
+                          <th class="text-center">Targeting</th>
+                          <th class="text-center">Supply</th>
+                          <th class="text-center">Creative</th>
+                          <th class="text-center">Settings</th>
+                          <th class="text-center">Position</th>
+                          <th class="text-center">Status</th>
+                          <th class="text-center">
+                              <a href="#!">Actions
+                                <i class="fa fa-ellipsis-h ml-1"></i>
+                              </a>
+                            </th>
+                        </tr>
+                    </thead>
+                    <!-- /Table head -->
+                    <!-- Table body -->
+                    <tbody>
+                      <tr data-label="xiru" campaignID="00000" campaignsTableID="xiru" adsName="Line Name" campaignLinesTableID="liru">
+                        <th scope="row">
+                          <input class="form-check-input" type="checkbox" id="checkbox1">
+                          <label class="form-check-label" for="checkbox1" class="label-table"></label>
+                        </th>
+                        <td class="pt-3-half" contenteditable="false">Pending</td>
+                        <td class="pt-3-half" contenteditable="true">Line Name</td>
+                        <td class="pt-3-half">
+                            <span class="table-up">
+                              <a href="#!" class="indigo-text">
+                                <!-- <i id="popupTargeting" class="fa fa-angle-down" aria-hidden="true" data-toggle="popover"></i> -->
+                                <i id="btnShowTargeting" class="btnShowTargeting fa fa-angle-down" aria-hidden="true"></i>
+                              </a>
+                            </span>
+                          </td>
+                        <td class="pt-3-half">
+                          <span class="table-up"><a href="#!" class="indigo-text"><i id="btnShowSupply" class="btnShowSupply fa fa-angle-down" aria-hidden="true"></i></a></span>
+                        </td>
+                        <td class="pt-3-half">
+                          <span class="table-up"><a href="#!" class="indigo-text"><i id="btnShowCreative" class="btnShowCreative fa fa-angle-down" aria-hidden="true"></i></a></span>
+                        </td>
+                        <td class="pt-3-half">
+                          <span class="table-up"><a href="#!" class="indigo-text"><i id="btnShowSettings" class="btnShowSettings fa fa-angle-down" aria-hidden="true"></i></a></span>
+                        </td>
+                        <td class="pt-3-half">
+                          <span class="table-up"><a href="#!" class="indigo-text"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></span>
+                          <span class="table-down"><a href="#!" class="indigo-text"><i class="fa fa-arrow-down"
+                                aria-hidden="true"></i></a></span>
+                        </td>
+                        <td class="pt-3-half" contenteditable="false">Pending</td>
+                        <td>
+                          <span class=""><button type="button" class="btn btn-secondary btn-rounded btn-sm my-0"><i class="fa fa-save mt-0"></i></button></span>
+                          <span class=""><button type="button" class="btn btn-danger btn-rounded btn-sm my-0"><i class="fa fa-trash mt-0"></i></button></span>
+                          <span class=""><button type="button" class="btn btn-primary btn-rounded btn-sm my-0"><i class="fa fa-retweet mt-0"></i></button></span>
+                        </td>
+                      </tr>
+                    </tbody>
+                    <!-- /Table body -->
+                  </table>
+                </div>
+              </div>
+              <!-- /Card body -->
+            </div>
+            <!-- Lines table -->
+
+            <hr>
+
+            <!-- Details table -->
+            <div class="card card-cascade narrower">
+              <!--Card image-->
+              <div class="view view-cascade gradient-card-header blue-gradient narrower py-2 mx-4 mb-3 d-flex justify-content-between align-items-center">
+            
+                <div>
+                  <button type="button" class="btn btn-outline-white btn-rounded btn-sm">
+                    <i class="fa fa-play mt-0"></i>
+                  </button>
+                  <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+                    <i class="fa fa-pause mt-0"></i>
+                  </button>
+                </div>
+            
+                <a href="#!" class="white-text mx-3">Line Details</a>
+            
+                <div>
+                  <button id="editDetails" type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+                    <i class="fa fa-pencil mt-0"></i>
+                  </button>
+                  <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+                    <i class="fa fa-remove mt-0"></i>
+                  </button>
+                  <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+                    <i class="fa fa-info-circle mt-0"></i>
+                  </button>
+                </div>
+            
+              </div>
+              <!-- /Card image -->
+              <!-- Card body -->
+              <div class="card-body">
+                <div id="lineDetailsTable" class="table-editable table-responsive table-borderless">
+
+                  <!-- Targeting Table -->
+                  <table id="targetingTable" class="table table-hover table-sm mb-0 targetingTableWrapper"  cellspacing="0" width="100%">
+                    <tr>
+                      <td data-label="section-heading" colspan="2">
+                        <div class="blue-gradient justify-content-between align-items-center">
+                          <a href="#!" class="white-text mx-3">Targeting</a>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr id="targetingID_tr">
+                      <th>Targeting ID</th>
+                      <td id="targetingID" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso">Pending</td>
+                    </tr>
+                    <tr>
+                      <td data-label="section-heading" colspan="2">
+                        <div class="blue-gradient justify-content-between align-items-center">
+                          <a href="#!" class="white-text mx-3">Geographic</a>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr id="targetingCountry_tr">
+                      <th>Country</th>
+                      <td id="targetingCountry" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso">Colombia</td>
+                    </tr>
+                    <tr id="targetingRegions_tr">
+                      <th>Regions</th>
+                      <td id="targetingRegions"></td>
+                    </tr>
+                    <tr id="targetingGeolocations_tr">
+                      <th>Geolocations</th>
+                      <td  campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso" id="targetingGeolocations" class="txt-container--break-long-word wrap-geolocations">
+                        {"lat":19.2909058,"lng":-99.69231140000001,"rad":5000,"name":"Coord1"},
+                        {"lat":19.2856949,"lng":-99.6654288,"rad":1490,"name":"Coord2"},
+                        {"lat":19.2605,"lng":-99.62559999999999,"rad":1757,"name":"Coord3"}, 
+                        {"lat":19.275648,"lng":-99.59903299999999,"rad":1381,"name":"Coord4"}
+                      </td>
+                    </tr>
+                    <tr>
+                        <td data-label="section-heading" colspan="2">
+                          <div class="blue-gradient justify-content-between align-items-center">
+                            <a href="#!" class="white-text mx-3">Connection & Supply Types</a>
+                          </div>
+                        </td>
+                      </tr>
+                    <tr id="targetingConnection_tr">
+                      <th>Connection Type</th>
+                      <td id="targetingConnection" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                    </tr>
+                    <tr id="targetingType_tr">
+                      <th>Targeting (Supply) Type</th>
+                      <td id="targetingType" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso">Pending</td>
+                    </tr>
+                    <tr>
+                      <td data-label="section-heading" colspan="2">
+                        <div class="blue-gradient justify-content-between align-items-center">
+                          <a href="#!" class="white-text mx-3">Devices & Segments</a>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr id="targetingOS_tr">
+                      <th>OS</th>
+                      <td id="targetingOS" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                    </tr>
+                    <tr id="targetingDeviceType_tr">
+                      <th>Device Type</th>
+                      <td id="targetingDeviceType" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                    </tr>
+                    <tr id="targetingSegment_tr">
+                      <th>Segment Targeting Devices (Retargeting)</th>
+                      <td id="targetingSegment"></td>
+                    </tr>
+                    <tr>
+                      <th>Devices</th>
+                      <td id="targetingDevices" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                    </tr>
+                    <tr>
+                      <td data-label="section-heading" colspan="2">
+                        <div class="blue-gradient justify-content-between align-items-center">
+                          <a href="#!" class="white-text mx-3">Gender, Age & Languages</a>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Gender</th>
+                      <td id="targetingGender" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso">all</td>
+                    </tr>
+                    <tr>
+                      <th>Age Min</th>
+                      <td id="targetingAgeMin" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                    </tr>
+                    <tr>
+                      <th>Age Max</th>
+                      <td id="targetingAgeMax" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                    </tr>
+                    <tr>
+                      <th>Device Language</th>
+                      <td id="targetingDeviceLanguage" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                    </tr>
+                    <tr>
+                      <th>Content Language</th>
+                      <td id="targetingContentLanguage" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                    </tr>
+                    <tr>
+                      <td data-label="section-heading" colspan="2">
+                        <div class="blue-gradient justify-content-between align-items-center">
+                          <a href="#!" class="white-text mx-3">Categories & Audiences</a>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>Category</th>
+                      <td id="targetingCategory" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                    </tr>
+                    <tr>
+                      <th>Factual Audience</th>
+                      <td id="targetingFactual" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                    </tr>
+                    <tr>
+                      <th>Audience Targeting (Adsquare)</th>
+                      <td id="targetingAudience" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                    </tr>
+                  </table>
+                  <!-- /Targeting Table -->
+
+                  <!-- Supply Table -->
+                  <table id="supplyTable" class="table table-hover table-sm mb-0 supplyTableWrapper"  cellspacing="0" width="100%">
+                      <tr>
+                        <td colspan="2">
+                          <div class="blue-gradient justify-content-between align-items-center">
+                            <a href="#!" class="white-text mx-3">Supply</a>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>Supply ID</th>
+                        <td id="supplyID" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso">Pending</td>
+                      </tr>
+                      <tr>
+                        <th>White-list</th>
+                        <td id="supplyWhite" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                      </tr>
+                      <tr>
+                          <th>Black-list</th>
+                          <td id="supplyBlack" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                        </tr>
+                    </table>
+                    <!-- /Supply Table -->
+
+                    <!-- Creative Table -->
+                  <table id="creativeTable" class="table table-hover table-sm mb-0 creativeTableWrapper"  cellspacing="0" width="100%">
+                      <tr>
+                        <td colspan="2">
+                          <div class="blue-gradient justify-content-between align-items-center">
+                            <a href="#!" class="white-text mx-3">Creative</a>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>Creative ID</th>
+                        <td id="creativeID" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso">Pending</td>
+                      </tr>
+                      <tr>
+                        <th>Creative Type</th>
+                        <td id="creativeType" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">
+                          <div class="blue-gradient justify-content-between align-items-center">
+                            <a href="#!" class="white-text mx-3">Attributes</a>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>Resource</th>
+                        <td id="creativeResource" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">
+                          <div class="blue-gradient justify-content-between align-items-center">
+                            <a href="#!" class="white-text mx-3">Relationships</a>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>Relationships</th>
+                        <td id="creativeRelationships" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                      </tr>
+                    </table>
+                    <!-- /Creative Table -->
+
+                    <!-- Settings Table -->
+                  <table id="settingsTable" class="table table-hover table-sm mb-0 settingsTableWrapper"  cellspacing="0" width="100%">
+                      <tr>
+                        <td colspan="2">
+                          <div class="blue-gradient justify-content-between align-items-center">
+                            <a href="#!" class="white-text mx-3">Settings</a>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>Settings ID</th>
+                        <td id="settingsID" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">
+                          <div class="blue-gradient justify-content-between align-items-center">
+                            <a href="#!" class="white-text mx-3">Date & Time</a>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>Start Date</th>
+                        <td id="settingsStartDate" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                      </tr>
+                      <tr>
+                        <th>End Date</th>
+                        <td id="settingsEndDate" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                      </tr>
+                      <tr>
+                        <th>Schedule</th>
+                        <td id="settingsSchedule" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso">runs 24/7</td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">
+                          <div class="blue-gradient justify-content-between align-items-center">
+                            <a href="#!" class="white-text mx-3">Trackings</a>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>Redirect URL (Clicks)</th>
+                        <td id="settingsClicksURL" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                      </tr>
+                      <tr>
+                        <th>Last Redirect URL</th>
+                        <td id="settingsLastURL" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                      </tr>
+                      <tr>
+                        <th>Tracking Pixel URLs (Impressions)</th>
+                        <td id="settingsPixel" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                      </tr>
+                      <tr>
+                        <th>JS Tracker (JavaScript)</th>
+                        <td id="settingsJS" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">
+                          <div class="blue-gradient justify-content-between align-items-center">
+                            <a href="#!" class="white-text mx-3">Price Per Unit</a>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>Price Per Unit</th>
+                        <td id="settingsPrice" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">
+                          <div class="blue-gradient justify-content-between align-items-center">
+                            <a href="#!" class="white-text mx-3">Deal IDs</a>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>Deal IDs</th>
+                        <td id="settingsDeal" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">
+                          <div class="blue-gradient justify-content-between align-items-center">
+                            <a href="#!" class="white-text mx-3">Adittional Information</a>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>External Key</th>
+                        <td id="settingsExternalKey" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                      </tr>
+                      <tr>
+                        <th>Additional Information</th>
+                        <td id="settingsAddInfo" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">
+                          <div class="blue-gradient justify-content-between align-items-center">
+                            <a href="#!" class="white-text mx-3">Delivery Frecuency & Interval</a>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>Frecuency Capping (Lifetime)</th>
+                        <td id="settingsFrecuency" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                      </tr>
+                      <tr>
+                        <th>Impression Interval (Minutes)</th>
+                        <td id="settingsInterval" campaignID="00000" campaignsTableID="xiru" campaignLinesTableID="liru" lineDetailsTableID="loso"></td>
+                      </tr>
+                    </table>
+                    <!-- /Settings Table -->
+
+                </div>
+              </div>
+              <!-- /Card body -->
+            </div>
+            <!-- Lines table -->
+        </div>
+      </div>
+    </section>
+
+    <section class="api text-center" id="liquidmapi">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h2 class="section-heading">LiquidM APIs</h2>
+            <div class="badges">
+              <a class="btn btn-outline-blue btn-xl js-scroll-trigger" href="#!" data-size="large" id="btnFormCampaign">Campaign Info</a>
+              <a class="btn btn-outline-blue btn-xl js-scroll-trigger" href="#!" data-size="large" id="btnFormNewAd">New Line</a>
+              <a class="btn btn-outline-blue btn-xl js-scroll-trigger" href="#!" data-size="large" id="btnFormTargeting">Targeting</a>
+              <a class="btn btn-outline-blue btn-xl js-scroll-trigger" href="#!" data-size="large" id="btnFormSupply">Supply</a>
+              <a class="btn btn-outline-blue btn-xl js-scroll-trigger" href="#!" data-size="large" id="btnFormCreative">Creative</a>
+              <a class="btn btn-outline-blue btn-xl js-scroll-trigger" href="#!" data-size="large" id="btnFormSettings">Settings</a>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <!-- Form GET Campaign -->
+        <div id="form_getcampaign">
+            <legend>Campaign Info &amp; Status</legend>
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-8 mx-auto control-label" for="form_getcampaign_campaignid">Campaign ID</label>  
+              <div class="col-md-8 mx-auto">
+              <input id="form_getcampaign_campaignid" name="form_getcampaign_campaignid" type="text" placeholder="Ex.: 89992" class="form-control input-md" required="">
+              <span class="help-block">Enter LiquidM Campaign ID.</span>  
+              </div>
+            </div>
+            <!-- Button -->
+            <div class="form-group">
+              <label class="col-md-8 mx-auto control-label" for="btnGetCampaign"></label>
+              <div class="col-md-8 mx-auto">
+                <button id="btnGetCampaign" name="btnGetCampaign" class="btn btn-outline-blue btn-xl js-scroll-trigger">Get Campaign Info!</button>
+              </div>
+            </div>
+        </div>
+        
+        <!-- Form POST New Line -->
+        <div id="form_postnewad">
+            <legend>Create Line</legend>
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-8 mx-auto control-label" for="form_postnewad_campaignid">Campaign ID</label>  
+              <div class="col-md-8 mx-auto">
+              <input id="form_postnewad_campaignid" name="form_postnewad_campaignid" type="text" placeholder="Ex.: 89992" class="form-control input-md" required="">
+              <span class="help-block">Enter LiquidM Campaign ID.</span>  
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="col-md-8 mx-auto control-label" for="form_postnewad_campaignname">Campaign ID</label>  
+              <div class="col-md-8 mx-auto">
+              <input id="form_postnewad_campaignname" name="form_postnewad_campaignname" type="text" placeholder="Ex.: AGENCY_CAMPAIGN_BANNER_320x50" class="form-control input-md" required="">
+              <span class="help-block">Enter Campaign Name.</span>  
+              </div>
+            </div>
+            <!-- Button -->
+            <div class="form-group">
+              <label class="col-md-8 mx-auto control-label" for="btnPostNewAd"></label>
+              <div class="col-md-8 mx-auto">
+                <button id="btnPostNewAd" name="btnPostNewAd" class="btn btn-outline-blue btn-xl js-scroll-trigger">Create Line!</button>
+              </div>
+            </div>
+        </div>
+        
+        <!-- Form POST Targeting -->
+        <div id="form_posttargeting">
+            <legend>Post Targeting</legend>
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-8 mx-auto control-label" for="form_posttargeting_campaignid">Campaign ID</label>  
+              <div class="col-md-8 mx-auto">
+              <input id="form_posttargeting_campaignid" name="form_posttargeting_campaignid" type="text" placeholder="Ex.: 89992" class="form-control input-md" required="">
+              <span class="help-block">Enter LiquidM Campaign ID.</span>  
+              </div>
+            </div>
+            <!-- Button -->
+            <div class="form-group">
+              <label class="col-md-8 mx-auto control-label" for="btnGetCampaign"></label>
+              <div class="col-md-8 mx-auto">
+                <button id="btnGetCampaign" name="btnGetCampaign" class="btn btn-outline-blue btn-xl js-scroll-trigger">Get Campaign Info!</button>
+              </div>
+            </div>
+        </div>
+            
+		<div id="loader">
+    		<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="dot"></div>
+			<div class="lading"></div>
+		</div>
+        <textarea id="api-forms-textarea" onkeyup="textAreaAdjust(this)"></textarea>
+      </div>
+    </section>
+
+    <section class="features bg-primary text-center" id="download">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h2 class="section-heading">Documentation</h2>
+            <div class="badges">
+            	<a class="btn btn-outline btn-xl js-scroll-trigger" href="https://github.com/jeffersonroth/" data-size="large" aria-label="GitHub">English</a>
+              <a class="btn btn-outline btn-xl js-scroll-trigger" href="https://github.com/jeffersonroth/" data-size="large" aria-label="GitHub">Español</a>
+              <a class="btn btn-outline btn-xl js-scroll-trigger" href="https://github.com/jeffersonroth/" data-size="large" aria-label="GitHub">Português</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; <a href="https://adsmovil.com/">AdsMovil</a> 2018. All Rights Reserved. | Powered by <a href="https://www.linkedin.com/in/jeffersonroth/">Jeff Roth</a></p>
+        <!--
+        <div class="col-lg-5 my-auto">
+          <div class="device-container">
+            <img src="/public/img/client_logo.png" alt="AdsMovil">
+            <img src="/public/img/jr_logo.png" alt="Jefferson Roth">
+          </div>
+        </div>
+      -->
+      </div>
+    </footer>
+
+    <!-- JavaScript -->
+
+      <!-- jQuery
+        Local/Vendor/3.3.1:       <link href="/public/vendor/jquery-3.3.1/jquery.min" rel="stylesheet">
+        Web/GoogleAPIs/3.3.1:     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+        Web/CloudFlare/3.3.1:      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+        Web/jQuery/3.3.1/Slim:    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
+      --><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+      <!-- Bootstrap core JavaScript 
+        Local/Vendor/4.1.3:       <script type="text/javascript" src="/public/vendor/bootstrap-4.1.3/js/bootstrap.min.js"></script>
+        Web/BootstrapCDN/4.1.1:   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        Web/CloudFlare/4.1.3:     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script> 
+      --><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+      <!-- Bootstrap tooltips: Popper.js
+        Local/Vendor/1.14.6:      <script type="text/javascript" src="/public/vendor/popper-1.14.6/popper.min.js"></script>
+        Web/CluodFlare/1.14.3:     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        Web/CluodFlare/1.14.4:     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script> 
+      --><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/popper.min.js"></script>
+
+      <!-- Bootstrap tooltips: Tooltip.js
+        Local/Vendor/1.3.1:       <script type="text/javascript" src="/public/vendor/tooltip-1.3.1/tooltip.min.js"></script>
+      -->
+
+      <!-- MDB core JavaScript 
+        Local/Vendor/4.5.16:      <script type="text/javascript" src="/public/vendor/mdb-4.5.16/js/mdb.min.js"></script>
+        Web/CloudFlare/4.5.16:     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.16/js/mdb.min.js"></script> 
+        Web/CloudFlare/4.5.15:     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.15/js/mdb.min.js"></script> 
+      --><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.16/js/mdb.min.js"></script>
+      
+      <!-- DataTables -->
+      <script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.18/datatables.min.js"></script>
+
+      <!-- Require.js
+      <script src="/public/vendor/require-2.3.6/require.js"></script>
+      <script src="/public/vendor/require-2.3.6/r.js"></script>
+      <script src="/public/vendor/require-2.3.6/domReady.js"></script>
+      <script src="/public/vendor/require-2.3.6/text.js"></script>
+      <script src="/public/vendor/require-2.3.6/i18n.js"></script>
+      <script src="/public/vendor/require-2.3.6/cs.js"></script> -->
+      
+      <!-- LiquidM -->
+      <script src="/public/js/liquidm.bundle.js"></script>
+
+      <!-- Custom Javascript -->
+      <!-- Buttons -->
+      <script async defer src="https://buttons.github.io/buttons.js"></script>
+      
+      <!-- Device Mockups Marvelapps -->
+      <script src="/public/vendor/device-mockups-marvelapps/main.min.js"></script>
+
+    <!-- /JavaScript -->
+
+  </body>
+
+</html>

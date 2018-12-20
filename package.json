@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-sample",
+  "name": "jr-dsp-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "DSP Server by Jefferson Roth",
   "main": "app/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "chokidar": "^2.0.4",
     "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
   }
 }

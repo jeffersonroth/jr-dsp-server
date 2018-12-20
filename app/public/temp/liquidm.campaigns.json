@@ -1,0 +1,243 @@
+{
+    "campaigns": [
+        {
+            "id": 89992,
+            "timezone": "Bogota",
+            "currency": "USD",
+            "account_id": 7102,
+            "name": "AUTOMATION_TEST_JEFF",
+            "ads": [
+                {
+                    "id": null,
+                    "name": "API_TEST_BANNER",
+                    "targeting":{
+                        "min_age":null,
+                        "max_age":null,
+                        "gender":"all",
+                        "use_only_native_gps":false,
+                        "targeting_type":"app",
+                        "factual_audience_ids":"factual",
+                        "targeting_devices":[
+                            {
+                                "id":1003389,
+                                "targeting_id":1080507,
+                                "brand":"samsung",
+                                "model":"all",
+                                "created_at":"2018-12-16T03:35:56.798Z",
+                                "updated_at":"2018-12-16T03:35:56.798Z",
+                                "deleted_at":null,
+                                "device_id":"samsung:all"
+                            }
+                        ],
+                        "targeting_segments":[
+                            {
+                                "id":1008581,
+                                "targeting_id":1080507,
+                                "retargeting_list_id":1005403,
+                                "created_at":"2018-12-16T03:33:51.954Z",
+                                "updated_at":"2018-12-16T03:33:51.954Z",
+                                "deleted_at":null,
+                                "blacklist_retargeting_list_id":null,
+                                "excluded":false,
+                                "duration":0
+                            }
+                        ],
+                        "targeting_operating_systems":[ "android" ],
+                        "timestamp":1543705552.5757718,
+                        "isp_ids":[],
+                        "ip_range_ids":[],
+                        "category_ids":["9"],
+                        "geographic_ids":["2192","32667"],
+                        "country_ids":["49"],
+                        "language_ids":[],
+                        "device_type_ids":["1","4","5"],
+                        "content_language_ids":[],
+                        "geo_location_ids":[],
+                        "connection_type_ids":["3"],
+                        "audience_targeting_ids":["549"],
+                        "geo_locations":[
+                            {"lat":19.2856949,"lng":-99.6654288,"rad":1490,"name":"Coord2"},
+                            {"lat":19.2909058,"lng":-99.69231140000001,"rad":5000,"name":"Coord1"},
+                            {"lat":19.2605,"lng":-99.62559999999999,"rad":1757,"name":"Coord3"},
+                            {"lat":19.275648,"lng":-99.59903299999999,"rad":1381,"name":"Coord4"}
+                        ]
+                    },
+                    "creative": {
+                        "id": null,
+                        "attributes":
+                            {"resource":"/public/img/jr_logo.png",
+                            "banner-hd":false,
+                            "width":200,
+                            "height":66,
+                            "native-data-type":3,
+                            "creative-type":"Banner"},
+                        "relationships":
+                            {"native":
+                                {"data":null},
+                                "creative-attributes":
+                                    {"data":[]}
+                            },
+                        "type":"banners"
+                    },
+                    "setting": {
+                        "id": null,
+                        "start_date": null,
+                        "end_date": null,
+                        "fc_per_user": null,
+                        "fc_interval": null,
+                        "target_cents": null,
+                        "fc_impressions_per_interval": null,
+                        "tracking_provider_id": null,
+                        "external_key": null,
+                        "js_tracker": null,
+                        "target_url": "https://giphy.com/gifs/friends-thumbs-up-matthew-perry-JPsFUPp3vLS5q",
+                        "tracking_pixel_urls": null,
+                        "last_redirect_url": null,
+                        "deal_ids": null
+                    },
+                    "supply": {
+                        "id": null,
+                        "included_supply_source_ids": [
+                            "p7332"
+                        ],
+                        "excluded_supply_source_ids": []
+                    }
+                },
+                {
+                    "id": null,
+                    "name": "API_TEST_MRAID",
+                    "targeting": {
+                        "id": null,
+                        "targeting_type": null,
+                        "gender": "all",
+                        "min_age": null,
+                        "max_age": null,
+                        "language_ids": [],
+                        "content_language_ids": [],
+                        "geographic_ids": [],
+                        "country_ids": [
+                            140
+                        ],
+                        "category_ids": [],
+                        "factual_audience_ids": "",
+                        "audience_targeting_ids": [],
+                        "geo_locations":[
+                            {"lat":19.2856949,"lng":-99.6654288,"rad":1490,"name":"Coord2"},
+                            {"lat":19.2909058,"lng":-99.69231140000001,"rad":5000,"name":"Coord1"},
+                            {"lat":19.2605,"lng":-99.62559999999999,"rad":1757,"name":"Coord3"},
+                            {"lat":19.275648,"lng":-99.59903299999999,"rad":1381,"name":"Coord4"}
+                        ],
+                        "device_type_ids": [],
+                        "devices": [],
+                        "targeting_operating_systems":[ "android" ],
+                        "targeting_devices": [],
+                        "connection_type_ids": [],
+                        "targeting_segments":[{"retargeting_list_id":null}]
+                    },
+                    "creative": {
+                        "id":"",
+                        "attributes":{
+                            "resource":"<script src=\"mraid.js\"></script>\n<div class=\"celtra-ad-v3\">\n    <!-- externalSiteId       = raw       {SITE_ID} -->\n    <!-- externalSiteName     = raw       {APP_NAME} -->\n    <!-- externalSupplierId   = raw       {SSP} -->\n    <!-- externalSupplierName = raw       {PUBLISHER_NAME} -->\n    <!-- gpsLat               = raw       {GEO_LAT} -->\n    <!-- gpsLng               = raw       {GEO_LON} -->\n    <!-- track.creativeLoads  = urldecode http://tracking.lqm.io/odin/view/{BID_TOKEN} -->\n    <img src=\"data:image/png,celtra\" style=\"display: none\" onerror=\"\n        (function(img) {\n            var params = {'clickUrl':'{CLICK_URL}','clickEvent':'advertiser','iosAdvId':'{IDFA}','androidAdvId':'{GAID}','externalAdServer':'LiquidM','tagVersion':'6'};\n            [].slice.apply(img.parentNode.childNodes).forEach(function(n) { var decfs = { urldecode: decodeURIComponent, htmldecode: function(v) { var d = document.createElement('div'); d.innerHTML = v; return d.textContent; }, eval: function(v) { return eval(v); }, raw: function(v) { return v; } }; var m; if (n.nodeType == 8 &amp;&amp; (m = n.textContent.match(/^&#92;s+([&#92;w.]+)(&#92;[.+&#92;])?&#92;s+=&#92;s+(&#92;w+)&#92;s+(.*)$/i))) { try { params[m[1]+(m[2] || '')] = decfs[m[3]](m[4].replace(/^&#92;s+|&#92;s+$/g, '')); } catch (e) {} } });\n            var req = document.createElement('script');\n            req.id = params.scriptId = 'celtra-script-' + (window.celtraScriptIndex = (window.celtraScriptIndex||0)+1);\n            params.clientTimestamp = new Date/1000;\n            params.clientTimeZoneOffsetInMinutes = new Date().getTimezoneOffset();\n            params.hostPageLoadId=window.celtraHostPageLoadId=window.celtraHostPageLoadId||(Math.random()+'').slice(2);\n            var qs = '';\n            for (var k in params) {\n                qs += '&amp;' + encodeURIComponent(k) + '=' + encodeURIComponent(params[k]);\n            }\n            var src = 'https://ads.celtra.com/22bd3090/mraid-ad.js?' + qs;\n            req.src = src;\n            img.parentNode.insertBefore(req, img.nextSibling);\n        })(this);\n    \"/>\n</div>","preview-url":"/public/img/jr_logo.png",
+                            "width":200,
+                            "height":66,
+                            "creative-type":"ScriptTag"
+                        },
+                        "relationships":{
+                            "native":{
+                                "data":null
+                            }
+                        },
+                        "type":"script-tags"
+                    },
+                    "setting": {
+                        "id": null,
+                        "start_date": null,
+                        "end_date": null,
+                        "fc_per_user": null,
+                        "fc_interval": null,
+                        "target_cents": null,
+                        "fc_impressions_per_interval": null,
+                        "tracking_provider_id": null,
+                        "external_key": null,
+                        "js_tracker": null,
+                        "target_url": "https://giphy.com/gifs/friends-thumbs-up-matthew-perry-JPsFUPp3vLS5q",
+                        "tracking_pixel_urls": null,
+                        "last_redirect_url": null,
+                        "deal_ids": null
+                    },
+                    "supply": {
+                        "id": null,
+                        "included_supply_source_ids": [],
+                        "excluded_supply_source_ids": []
+                    }
+                },
+                {
+                    "id": null,
+                    "name": "API_TEST_VAST",
+                    "targeting": {
+                        "id": null,
+                        "targeting_type": null,
+                        "gender": "all",
+                        "min_age": null,
+                        "max_age": null,
+                        "language_ids": [],
+                        "content_language_ids": [],
+                        "geographic_ids": [],
+                        "country_ids": [
+                            140
+                        ],
+                        "category_ids": [],
+                        "factual_audience_ids": "",
+                        "audience_targeting_ids": [],
+                        "geo_locations":[
+                            {"lat":19.2856949,"lng":-99.6654288,"rad":1490,"name":"Coord2"},
+                            {"lat":19.2909058,"lng":-99.69231140000001,"rad":5000,"name":"Coord1"},
+                            {"lat":19.2605,"lng":-99.62559999999999,"rad":1757,"name":"Coord3"},
+                            {"lat":19.275648,"lng":-99.59903299999999,"rad":1381,"name":"Coord4"}
+                        ],
+                        "device_type_ids": [],
+                        "devices": [],
+                        "targeting_operating_systems":[ "android" ],
+                        "targeting_devices": [],
+                        "connection_type_ids": [],
+                        "targeting_segments":[{"retargeting_list_id":null}]
+                    },
+                    "creative": {
+                        "id":"null",
+                        "attributes":{
+                            "resource":"<VAST xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" version=\"2.0\">\n<Ad id=\"CIDTRAINING\">\n<InLine>\n<AdSystem>Moat</AdSystem>\n<AdTitle>TRAINING</AdTitle>\n<Description></Description>\n<Impression id=\"ft_vast_i\"><![CDATA[]]></Impression>\n<Creatives>\n<Creative sequence=\"1\" id=\"TRAINING\">\n<Linear>\n<Duration>00:00:56</Duration>\n\n<VideoClicks>\n<ClickThrough>\n<![CDATA[https://adsmovil.com/]]>\n</ClickThrough>\n</VideoClicks>\n<MediaFiles>\n<MediaFile id=\"1\" delivery=\"progressive\" type=\"video/mp4\" bitrate=\"327\" width=\"640\" height=\"360\">\n<![CDATA[https://adsmovil-creatives.s3.amazonaws.com/vastAG/training/videos/Video.mp4]]>\n</MediaFile>\n</MediaFiles>\n</Linear>\n</Creative>\n</Creatives>\n</InLine>\n</Ad>\n</VAST>",
+                                "creative-type":"Video"
+                        },
+                        "relationships":{
+                            "native":{
+                                "data":null
+                            }
+                        },
+                        "type":"videos"
+                    },
+                    "setting": {
+                        "id": null,
+                        "start_date": null,
+                        "end_date": null,
+                        "fc_per_user": null,
+                        "fc_interval": null,
+                        "target_cents": null,
+                        "fc_impressions_per_interval": null,
+                        "tracking_provider_id": null,
+                        "external_key": null,
+                        "js_tracker": null,
+                        "target_url": "https://giphy.com/gifs/friends-thumbs-up-matthew-perry-JPsFUPp3vLS5q",
+                        "tracking_pixel_urls": null,
+                        "last_redirect_url": null,
+                        "deal_ids": null
+                    },
+                    "supply": {
+                        "id": null,
+                        "included_supply_source_ids": [],
+                        "excluded_supply_source_ids": []
+                    }
+                }
+            ]
+        }
+    ]
+}

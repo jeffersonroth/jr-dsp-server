@@ -1,0 +1,35 @@
+{
+    "ul": {
+      "@aria-controls": "ember-power-select-trigger-ember2123",
+      "@role": "listbox",
+      "@id": "ember-power-select-options-ember2123",
+      "@class": "ember-power-select-options ember-view",
+      "#comment": "",
+      "li": [
+        {
+          "@aria-selected": "true",
+          "@aria-current": "true",
+          "@data-option-index": "0",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "All"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "1",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Apps"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "2",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Sites"
+        }
+      ]
+    }
+  }

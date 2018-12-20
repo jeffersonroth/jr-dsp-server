@@ -1,0 +1,195 @@
+{
+    "ul": {
+      "@aria-controls": "ember-power-select-trigger-ember2222",
+      "@role": "listbox",
+      "@id": "ember-power-select-options-ember2222",
+      "@class": "ember-power-select-options ember-view",
+      "#comment": "",
+      "li": [
+        {
+          "@aria-selected": "false",
+          "@aria-current": "true",
+          "@data-option-index": "0",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Arts &amp; Entertainment"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "1",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Automotive"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "2",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Business"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "3",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Careers"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "4",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Education"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "5",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Family &amp; Parenting"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "6",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Food &amp; Drink"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "7",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Health &amp; Fitness"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "8",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Hobbies &amp; Interests"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "9",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Home &amp; Garden"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "10",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Law, Gov't &amp; Politics"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "11",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "News"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "12",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Personal Finance"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "13",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Pets"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "14",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Real Estate"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "15",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Religion &amp; Spirituality"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "16",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Science"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "17",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Shopping"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "18",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Society"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "19",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Sports"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "20",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Style &amp; Fashion"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "21",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Technology &amp; Computing"
+        },
+        {
+          "@aria-selected": "false",
+          "@aria-current": "false",
+          "@data-option-index": "22",
+          "@role": "option",
+          "@class": "ember-power-select-option",
+          "#text": "Travel"
+        }
+      ]
+    }
+  }
