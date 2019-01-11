@@ -1,0 +1,7 @@
+{
+  "name": "JR DSP Server",
+  "description": "DSP Server by Jefferson Roth",
+  "repository": "https://github.com/jeffersonroth/jr-dsp-server",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "dsp", "api"]
+}
